@@ -1,8 +1,8 @@
 # DecisionTree
 Decision Tree Classifier based on Information Gain, that works with attributes having 2 distinct values
 
-This is the first assignment for my Introduction to Machine Learning (10-601) course. 
-We had to implement a decision tree that takes data where attributes have only 2 distinct values. 
+The following code is used to predict the party of a politician and grade of a high school student. 
+Greedy policy (Information Gain) is used to build our decision tree. The hyperparameter which decided the depth of the tree is given as an input from command line.
 
 The repo contains two files inspect.py and decisionTree.py
 
@@ -17,12 +17,12 @@ To run it "python decisionTree.py politicians_train.csv politicians_test.csv 2 p
 
 Format is argv[1] is training data
           argv[2] is testing data
-          argv[3] is maximumg depth of the tree required
+          argv[3] is maximum depth of the tree required
           argv[4] is the labels predicted by decision tree on training data
           argv[5] is the labels predicted by decision tree on testing data
           argv[6] is the error rate for both training and testing data
           
- decisionTree.py also prints out the decision Tree it makes on the training data. So you can visualize what exactly the decisionTree is formed.
+decisionTree.py also prints out the decision Tree it makes on the training data. So you can visualize what exactly the decisionTree is formed.
    
 
 
